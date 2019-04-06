@@ -31,15 +31,21 @@
     <!-- JumbroTron -->
     <div class="jumbotron jumbotron-fluid bg-info">
             <div class="container text-center pt-4">
-              <h1 class="display-3">Lorem Ipsum</h1>
-              <p class="lead">A One Day Conference about JavaScript</p>
+              <h1 class="display-3">Taco Festival</h1>
+              <p class="lead">Biggest Taco Festival in America</p>
+
+              <div class="btn-group mt-4" role="group" aria-label="Callout">
+                    <button type="button" class="btn btn-danger btn-lg">Contestants Register</button>
+                    <a class="btn btn-primary btn-lg" href="#speakers">Sign Up for Taco Testing</a>
+                </div>
             </div>
+            
     </div>
     <!-- /jumbrotron -->
 
     <div class="container text-center">
         <h1 class="display-3 my-5">Practice Model</h1>
-        <p class="lead">Coming Soon to a place near you!</p>
+        <p class="lead">If you like what you see, enter your email below!</p>
 
         <div class="col-lg-6 mx-auto my-5">
             <div class="input-group">
@@ -65,42 +71,92 @@
                 <div class="col-sm mt-3">
                     <h4>Lorem Ipsum</h4>
                     <ul>
-                        <li><strong>MongoDB</strong>: NoSQL database</li>
-                        <li><strong>Express</strong>: Framework for Node</li>
-                        <li><strong>React</strong>: JavaScript Library</li>
-                        <li><strong>Node.js</strong>: JavaScript enviroment</li>
-                        <li><strong>Babel</strong>: JavaScript Compiler</li>
+                        <li><strong>Lorem</strong>: Nunc cursus</li>
+                        <li><strong>Lorem</strong>: Nunc cursus</li>
+                        <li><strong>Lorem</strong>: Nunc cursus</li>
+                        <li><strong>Lorem</strong>: Nunc cursus</li>
+                        <li><strong>Lorem</strong>: Nunc cursus</li>
                     </ul>
                 </div>
         </div>   <!--about--> 
 
-        <!-- speakers -->
-        <h1 class="display-4 text-center text-muted my-4">Speakers</h1>
-        [Speaker Information goes here]
+        <!-- Taste Testers -->
+        <h1 id="contestants" class="display-4 text-center text-muted my-4">Contestants</h1>
+        <hr>
+        <!-- [Contestant Information goes here] -->
+        <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">First</th>
+                    <th scope="col">Last</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Jacob</td>
+                    <td>Thornton</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Larry</td>
+                    <td>the Bird</td>
+                  </tr>
+                </tbody>
+        </table>
 
         <!-- schedule -->
-        <h1 class="display-4 text-center text-muted my-4">Schedule</h1>
-        [Schedule Information goes here]
+        <h1 class="display-4 text-center text-muted my-4 pt-5">Judge</h1>
+         <!--callout  -->
+        <button type="button" class="btn btn-info btn-lg my-5">Register To Become Judge</button>
     </div> <!--container-->
 
     <!-- signup form -->
     <hr>
-    <div class="row py-2 text-muted">
-    <div class="col-md col-xl-5 text-center">
-        <p><strong>About Treehouse</strong></p>
-        <p>Treehouse brings affordable technology education to people everywhere to help them achieve their dreams and change the world.</p>
-    </div>
-    <div class="col-md col-xl-5 text-center ml-auto">
-        <p><strong>Stay up-to-date on Full Stack Conf</strong></p>
-        <div class="input-group">
-        <input type="text" class="form-control" placeholder="Email">
-        <span class="input-group-btn">
-            <button class="btn btn-primary" type="button">Sign up</button>
-        </span>
+    <div class="container">
+        <div class="row py-2 text-muted">
+        <div class="col-md col-xl-5 text-center">
+            <p><strong>About Taco Festival</strong></p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nec rutrum metus. </p>
         </div>
-    </div>
-    </div>
-    <hr><!-- /signup form -->
+        <div class="col-md col-xl-5 text-center ml-auto">
+            <p><strong>Stay up-to-date on different restaurants</strong></p>
+            <div class="input-group">
+            <input type="text" class="form-control" placeholder="Email">
+            <span class="input-group-btn">
+                <button class="btn btn-primary" type="button">Sign up</button>
+            </span>
+            </div>
+        </div>
+        </div>
+            <hr>
+    <!-- footer -->
+        <div class="row py-3">
+            <div class="col-md-7">
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Schedule</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Directions</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Directions</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md text-md-right">
+                <small>&copy; 2019 Taco Festival</small>
+            </div>
+        </div><!-- /footer -->  
+    </div><!--/container-->
+    <!-- /signup form -->  
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
